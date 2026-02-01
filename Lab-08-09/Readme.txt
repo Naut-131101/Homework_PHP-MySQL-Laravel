@@ -1,0 +1,1 @@
+Do bài này khối lượng file lớn github khó upload lên nên chỉ cần láy cái resource này quăng vào laravel project là có bài.
