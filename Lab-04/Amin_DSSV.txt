@@ -1,0 +1,35 @@
+Full Name: Jerry
+Age: 2
+Email: example@gmail.com
+Phone: 0932827168
+Address: 123-6a Bui Van Huan
+Gender: male
+
+Full Name: Tom
+Age: 3
+Email: example@gmail.com
+Phone: 0932827168
+Address: 122-6a Bui Van Huan
+Gender: female
+
+Full Name: Cat
+Age: 12
+Email: example@gmail.com
+Phone: 0932827168
+Address: 123-6a Bui Van Huan
+Gender: Female
+
+Full Name: Nguyen Van A
+Age: 0
+Email: example@gmail.com
+Phone: 0931234567
+Address: 21 bui
+Gender: 
+
+Full Name: Nguyen Van A
+Age: 0
+Email: example@gmail.com
+Phone: 0931234567
+Address: 21 bui
+Gender: Male
+
