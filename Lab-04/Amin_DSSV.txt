@@ -24,7 +24,7 @@ Age: 0
 Email: example@gmail.com
 Phone: 0931234567
 Address: 21 bui
-Gender: 
+Gender: Male
 
 Full Name: Nguyen Van A
 Age: 0
