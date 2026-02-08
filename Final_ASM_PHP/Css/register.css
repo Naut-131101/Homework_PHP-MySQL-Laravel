@@ -1,0 +1,211 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%; /*1rem = 10px*/
+  background-color: whitesmoke;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(../Asset/Image-Brand/background_brand.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Header */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+  background-color: black;
+  box-shadow: 0 0 10px 0;
+  color: white;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-brand {
+  width: 50px;
+  filter: brightness(0) saturate(100%) invert(78%) sepia(75%) saturate(1%)
+    hue-rotate(352deg) brightness(103%) contrast(90%);
+}
+.logo-brand:hover {
+  filter: brightness(0) saturate(100%) invert(34%) sepia(61%) saturate(3364%)
+    hue-rotate(195deg) brightness(103%) contrast(109%);
+}
+.header-content {
+  font-size: 1rem;
+}
+
+.header-menu ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  padding: 0 10px;
+}
+.header-menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+.header-menu ul li a:hover {
+  text-decoration: none;
+  color: rgb(0, 132, 255);
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+main {
+  display: flex;
+  justify-content: center; /* căn ngang */
+}
+
+form {
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px 0.001px rgb(0, 0, 0);
+  font-size: 1.5rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+form h1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+
+.avatar,
+.name,
+.age,
+.gender,
+.address,
+.phone,
+.email,
+.password,
+.btn-login {
+  padding: 5px 0;
+}
+
+.avatar-url {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.btn-login {
+  margin: 30px 0;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 435px;
+  height: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.forgot-password a {
+  text-decoration: none;
+  color: black;
+}
+
+.forgot-password a:hover {
+  color: grey;
+}
+
+.btn-signup button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 10px 200px;
+}
+.btn-signup button:hover {
+  box-shadow: 0 0 20px 0 grey;
+}
+
+.rmb-me-fg-psw {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.form-footer {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.form-footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.form-footer a:hover {
+  color: grey;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 1.5rem;
+  color: rgba(200, 200, 200, 0.958);
+}
+
+/* NOTE: This is avatar rotato 360 */
+#avatarPreview {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 10px;
+  box-shadow: 0 0 20px 0 paleturquoise;
+  animation: spin 15s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* NOTE: This is avatar rotato 360 */
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 1.5rem;
+  color: rgba(200, 200, 200, 0.958);
+}

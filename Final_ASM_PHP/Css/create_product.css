@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%; /*1rem = 10px*/
+  background-color: whitesmoke;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(../Asset/Image-Brand/background_brand.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Header */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+  background-color: black;
+  box-shadow: 0 0 10px 0;
+  color: white;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-brand {
+  width: 50px;
+  filter: brightness(0) saturate(100%) invert(78%) sepia(75%) saturate(1%)
+    hue-rotate(352deg) brightness(103%) contrast(90%);
+}
+.logo-brand:hover {
+  filter: brightness(0) saturate(100%) invert(34%) sepia(61%) saturate(3364%)
+    hue-rotate(195deg) brightness(103%) contrast(109%);
+}
+.header-content {
+  font-size: 1rem;
+}
+
+.search input[type="text"] {
+  border: none;
+  width: 420px;
+  height: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.header-menu ul {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  padding: 0 10px;
+}
+.header-menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+.header-menu ul li a:hover {
+  text-decoration: none;
+  color: rgb(0, 132, 255);
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+/* Main */
+main {
+  align-self: center;
+}
+
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 1.5rem;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"] {
+  width: 360px;
+  height: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.category select {
+  width: 50%;
+  height: 25px;
+  border: 2px solid black;
+}
+
+form .btn-summit {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  padding: 10px 50px;
+  width: 380px;
+}
+
+form .btn-summit:hover {
+  box-shadow: 0 0 20px 0 grey;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 1.5rem;
+  color: rgba(200, 200, 200, 0.958);
+}
